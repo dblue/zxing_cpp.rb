@@ -1,4 +1,4 @@
-lib = File.expand_path('../lib/', __FILE__)
+9lib = File.expand_path('../lib/', __FILE__)
 $:.unshift lib unless $:.include?(lib)
 
 require 'zxing/version'
@@ -43,6 +43,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rake-compiler', '~> 0.9'
   s.add_development_dependency 'shoulda', '~> 3.5'
 
-  s.add_dependency 'ffi', '~> 1.1'
+  s.add_dependency 'ffi', '~> 1.9'
   s.add_dependency 'rmagick', '~> 2.13'
 end
